@@ -1,0 +1,23 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "use SASS in design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassanharga/hassanharga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassanharga/hassanharga/issues"
+  },
+  "homepage": "https://github.com/hassanharga/hassanharga#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
