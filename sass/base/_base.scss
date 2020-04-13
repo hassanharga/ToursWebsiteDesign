@@ -12,9 +12,31 @@ html {
   /* font-size: 10px; */
   /* .625*(number of pixels) */
   /* 10px(custom font)/16px(default number) = 62.5% */
-  font-size: 62.5%;
+  font-size: 62.5%; // 1rem  = 10px
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem = 12px   9/16 = 75%
+  }
+
+  @include respond(tab-port) {
+    font-size: 56.25%; // 1rem = 9px   9/16 = 56.25%
+  }
+
+  // @include respond(tab-land) {
+  //   font-size: 50%; // 1rem = 8px   8/16 = 50%
+  // }
+
+  @include respond(phone) {
+    font-size: 50%;
+  }
 }
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
+  
+  @include respond(tab-port) {
+    padding: 0;
+  }
+
 }
