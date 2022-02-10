@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hassanharga/hassanharga#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
